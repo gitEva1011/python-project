@@ -13,7 +13,7 @@ imp.reload(sys)
 from handlers.index import IndexHandler
 from handlers.user import UserHandler
 from handlers.sleep import SleepHandler
-from handlers.sleep import SeeHandler
+from handlers.see import SeeHandler
 
 url = [
     (r'/', IndexHandler),
